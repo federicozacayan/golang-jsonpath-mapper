@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Your JSON data
-	sourceObj := `{"person": {"name": {"asd":123}}}`
+	sourceObj := `{"person": {"name": {"asd":12.3}}}`
 	targetObj := `{"data": [{"firstName": null}]}`
 
 	// JSONPath expressions
